@@ -1,0 +1,17 @@
+{
+  "testId" : "1-welcomepage-tablet-750x800",
+  "name" : "welComePage_tablet 750x800",
+  "report" : {
+    "nodes" : [ {
+      "name" : "check layout on tablet 750x800 device",
+      "status" : "info",
+      "time" : 1544819856931,
+      "includedTags" : [ "tablet" ],
+      "excludedTags" : [ ],
+      "sections" : [ ],
+      "objects" : { },
+      "screenshot" : "layout-2-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

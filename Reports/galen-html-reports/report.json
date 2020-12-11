@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "welComePage_tablet 750x800",
+    "startedAt" : 1544819856931,
+    "endedAt" : 1544819856931,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 0,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 0
+    },
+    "testId" : "1-welcomepage-tablet-750x800",
+    "duration" : 0,
+    "failed" : false
+  } ]
+}

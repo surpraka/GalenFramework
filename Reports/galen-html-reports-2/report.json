@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "welComePage_desktop 1200x800",
+    "startedAt" : 1545127242472,
+    "endedAt" : 1545127242472,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 0,
+      "errors" : 6,
+      "warnings" : 0,
+      "total" : 6
+    },
+    "testId" : "1-welcomepage-desktop-1200x800",
+    "duration" : 0,
+    "failed" : true
+  } ]
+}

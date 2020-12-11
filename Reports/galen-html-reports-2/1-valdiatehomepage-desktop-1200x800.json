@@ -1,0 +1,35 @@
+{
+  "testId" : "1-valdiatehomepage-desktop-1200x800",
+  "name" : "valdiateHomePage_desktop 1200x800",
+  "report" : {
+    "nodes" : [ {
+      "name" : "check layout on desktop 1200x800 device",
+      "status" : "info",
+      "time" : 1544822775861,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "US PLP",
+        "place" : {
+          "filePath" : "Resources/mfs.gspec",
+          "lineNumber" : 5
+        },
+        "objects" : [ {
+          "name" : "factsheet",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "Resources/mfs.gspec",
+              "lineNumber" : 8
+            },
+            "name" : "absent",
+            "highlight" : [ ]
+          } ]
+        } ]
+      } ],
+      "objects" : { },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

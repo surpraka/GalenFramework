@@ -1,0 +1,12 @@
+#Declaring objects with css and xpath locators
+@objects
+	insightsFooter				xpath	//div[contains(@class,'global-footer')]//a[@title='Insights']
+	unkownFooter				xpath	//div[contains(@class,'global-footer')]//a[@title='Insig']
+
+= US PLP =
+	@on desktop
+		insightsFooter:
+			visible
+			
+		unkownFooter:
+			absent

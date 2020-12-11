@@ -1,0 +1,87 @@
+{
+  "testId" : "1-welcomepage-desktop-1200x800",
+  "name" : "welComePage_desktop 1200x800",
+  "report" : {
+    "nodes" : [ {
+      "name" : "check layout on desktop 1200x800 device",
+      "status" : "error",
+      "time" : 1545127242472,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Home Page",
+        "place" : {
+          "filePath" : "Resources/example.gspec",
+          "lineNumber" : 11
+        },
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "Resources/example.gspec",
+              "lineNumber" : 16
+            },
+            "name" : "inside screen 0px top",
+            "errors" : [ "\"header\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "Resources/example.gspec",
+              "lineNumber" : 17
+            },
+            "name" : "inside screen 0px left",
+            "errors" : [ "\"header\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "Resources/example.gspec",
+              "lineNumber" : 18
+            },
+            "name" : "inside screen 0px right",
+            "errors" : [ "\"header\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "sw-logo",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "Resources/example.gspec",
+              "lineNumber" : 23
+            },
+            "name" : "below header 31px",
+            "errors" : [ "\"sw-logo\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "Resources/example.gspec",
+              "lineNumber" : 25
+            },
+            "name" : "image file sw-logo.png, error %5",
+            "errors" : [ "\"sw-logo\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "nav-menu",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "Resources/example.gspec",
+              "lineNumber" : 35
+            },
+            "name" : "above follow-us-box 20px",
+            "errors" : [ "\"nav-menu\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      } ],
+      "objects" : { },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

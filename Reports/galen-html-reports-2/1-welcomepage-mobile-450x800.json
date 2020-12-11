@@ -1,0 +1,17 @@
+{
+  "testId" : "1-welcomepage-mobile-450x800",
+  "name" : "welComePage_mobile 450x800",
+  "report" : {
+    "nodes" : [ {
+      "name" : "check layout on mobile 450x800 device",
+      "status" : "info",
+      "time" : 1545072853803,
+      "includedTags" : [ "mobile" ],
+      "excludedTags" : [ ],
+      "sections" : [ ],
+      "objects" : { },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
